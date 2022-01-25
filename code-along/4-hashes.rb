@@ -4,6 +4,28 @@
 
 # Hashes are lists of *key-value pairs*
 
+profile = {
+    name: "Brain",
+    location: {
+        city: "Chicago",
+        stat: "IL"
+},
+    status: "Teaching ENTR-451"
+},
+    timeline: [
+        {status: "Teaching this class", posted: "8:30am"},
+        {status: "Eating tacos", posted: "7am"}
+    ]
+}
+
+puts profile[:name]
+puts profile[:status]
+puts profile[:location]
+
+
 # Accessing data from the hash
+
+puts "----------------------------"
+puts profile{:timeline}[0][:status]
 
 # More Complex Hashes

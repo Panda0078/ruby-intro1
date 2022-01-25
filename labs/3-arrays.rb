@@ -14,3 +14,15 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+barins_foods = ["tacos", "cookies", "nachos", "ice cream", "ramen", "sushi","pizza"]
+puts barins_foods
+
+bens_list = ["kale", "raisins", "sticks", "apples", "ramen", "sushi", "pizza"]
+puts bens_list
+
+combined_list_with_dumps = barins_foods + bens_list
+combined_list = combined_list_with_dumps.uniq
+
+
+puts combined_list. inspect
